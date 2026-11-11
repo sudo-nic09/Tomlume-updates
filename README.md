@@ -49,7 +49,8 @@ over the existing app and keeps every book, note and highlight.
    then `./gradlew assembleDebug`), copy it to `apk/tomlume.apk`, and run
    `npm run update:manifest -- apk/tomlume.apk`.
 2. Create a release here tagged `v<versionName>` with the APK uploaded as
-   `Tomlume-<versionName>.apk` (the file name must match `apkUrl`).
+   `Tomlume-<versionName>.apk`. `apkUrl` is generated from exactly that tag and
+   file name, so the two cannot drift apart.
 3. Commit the regenerated `update.json` to `main`.
 
 Both files are served over `https://raw.githubusercontent.com/sudo-nic09/Tomlume-updates/main/`.
