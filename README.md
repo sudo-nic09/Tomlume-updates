@@ -35,7 +35,7 @@ downloads the APK by itself.
   "versionCode": 5,
   "versionName": "1.4",
   "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.4/Tomlume-1.4.apk",
-  "sha256": "971389167b620398eb68eb2848cb03873988ee25a0ac734698e5d2414c2e64c2",
+  "sha256": "3e9d4cf2a9b6427e07dd6aa10aa6ea828a23205461480d77c89ceab997f5fe60",
   "notes": "One short line shown in the app."
 }
 ```
