@@ -25,14 +25,17 @@ the device, so an announced pause also applies offline.
   behaviour and matches the shipped app.
 
 `update.json` - the update manifest. Checked on launch, every six hours, and
-when the app is foregrounded (at most once every 30 minutes).
+when the app is foregrounded (at most once every 30 minutes). A native
+background job also checks every six hours while the app is closed and posts
+one notification per new `versionCode`; it only reads this file and never
+downloads the APK by itself.
 
 ```json
 {
-  "versionCode": 4,
-  "versionName": "1.3",
-  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.3/Tomlume-1.3.apk",
-  "sha256": "12a5fc0b80f70538e39306afd17f7b393e627e8b74fc4e8226b7a091216768ac",
+  "versionCode": 5,
+  "versionName": "1.4",
+  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.4/Tomlume-1.4.apk",
+  "sha256": "56f49126aee3623ad4f924485dd1d0818178757b98da15feae551d8ac5ff48fe",
   "notes": "One short line shown in the app."
 }
 ```
@@ -43,11 +46,16 @@ is required, and the APK must also carry the same package name and signing key
 as the installed app before Android's installer is opened. An update installs
 over the existing app and keeps every book, note and highlight.
 
+Releases up to 1.3 were signed with a temporary debug key. Version 1.4 moves to
+Tomlume's permanent release key, so 1.3 installs need one manual install of
+`Tomlume-1.4.apk`; every release from 1.4 onward updates in place.
+
 ## Releasing
 
 1. Build the unlock APK in the Tomlume source repo (`npm run build:android:unlock`,
-   then `./gradlew assembleDebug`), copy it to `apk/tomlume.apk`, and run
-   `npm run update:manifest -- apk/tomlume.apk`.
+   then `./gradlew assembleRelease`), copy
+   `android/app/build/outputs/apk/release/app-release.apk` to `apk/tomlume.apk`,
+   and run `npm run update:manifest -- apk/tomlume.apk`.
 2. Create a release here tagged `v<versionName>` with the APK uploaded as
    `Tomlume-<versionName>.apk`. `apkUrl` is generated from exactly that tag and
    file name, so the two cannot drift apart.
