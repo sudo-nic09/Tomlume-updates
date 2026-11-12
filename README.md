@@ -35,7 +35,7 @@ downloads the APK by itself.
   "versionCode": 5,
   "versionName": "1.4",
   "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.4/Tomlume-1.4.apk",
-  "sha256": "b6dd04ca3d9488b707ea140030f9430adeb037f3c1a2d8c542315762d82fcf8c",
+  "sha256": "971389167b620398eb68eb2848cb03873988ee25a0ac734698e5d2414c2e64c2",
   "notes": "One short line shown in the app."
 }
 ```
@@ -49,7 +49,9 @@ over the existing app and keeps every book, note and highlight.
 Releases up to 1.3 were signed with a temporary debug key. Version 1.4 moves to
 Tomlume's permanent release key, so a 1.3 build cannot install it over the top:
 tapping **Update** there saves the verified APK to Downloads for a one-time
-manual install. Every release from 1.4 onward updates in place.
+manual install. Export the library from Settings → Data first in case Android
+requires uninstalling the old build. Every release from 1.4 onward updates in
+place.
 
 ## Releasing
 
