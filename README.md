@@ -46,12 +46,11 @@ is required, and the APK must also carry the same package name and signing key
 as the installed app before Android's installer is opened. An update installs
 over the existing app and keeps every book, note and highlight.
 
-Releases up to 1.3 were signed with a temporary debug key. Version 1.4 moves to
-Tomlume's permanent release key, so a 1.3 build cannot install it over the top:
-tapping **Update** there saves the verified APK to Downloads for a one-time
-manual install. Export the library from Settings → Data first in case Android
-requires uninstalling the old build. Every release from 1.4 onward updates in
-place.
+Releases up to 1.3 were signed with a temporary debug key, so a 1.3 build cannot
+install 1.4 over the top. Download `Tomlume-1.4.apk` from the release page and
+install it once by hand; export the library from Settings → Data first in case
+Android requires uninstalling the old build. Every release from 1.4 onward
+updates in place.
 
 ## Releasing
 

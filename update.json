@@ -3,5 +3,5 @@
   "versionName": "1.4",
   "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.4/Tomlume-1.4.apk",
   "sha256": "971389167b620398eb68eb2848cb03873988ee25a0ac734698e5d2414c2e64c2",
-  "notes": "Checks for new builds in the background and moves to Tomlume's permanent release key. On 1.3 it saves the APK to Downloads for a one-time manual install; later updates arrive normally."
+  "notes": "Background update notices, plus Tomlume's permanent signing key. Version 1.3 needs this APK installed once by hand from the release page; later updates arrive normally."
 }
