@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "1.5",
-  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.5/Tomlume-1.5.apk",
-  "sha256": "3211bd1e854db25b90479786085776ad71dbaf7c55943e4fc371dcd199899b46",
-  "notes": "PDFs and EPUBs now read properly, reading positions survive rotation and restarts, and summaries save as they finish."
+  "versionCode": 7,
+  "versionName": "1.6",
+  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.6/Tomlume-1.6.apk",
+  "sha256": "34b740ee45d2d5ee0bd6721388e8631eecfab839b50277e1e2af67324fa1ebc8",
+  "notes": "Books of any length now summarise in full - page and size cut-offs are gone. Large EPUBs and scanned PDFs are read piece by piece, two books can summarise at once, and every finished part is saved so an interrupted summary resumes where it stopped."
 }
