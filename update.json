@@ -1,7 +1,7 @@
 {
-  "versionCode": 7,
-  "versionName": "1.6",
-  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.6/Tomlume-1.6.apk",
-  "sha256": "34b740ee45d2d5ee0bd6721388e8631eecfab839b50277e1e2af67324fa1ebc8",
-  "notes": "Books of any length now summarise in full - page and size cut-offs are gone. Large EPUBs and scanned PDFs are read piece by piece, two books can summarise at once, and every finished part is saved so an interrupted summary resumes where it stopped."
+  "versionCode": 8,
+  "versionName": "1.7",
+  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.7/Tomlume-1.7.apk",
+  "sha256": "539f9bcd5a6dca8ff9bae723317def033ac5405a32a358fcecf72084619e2768",
+  "notes": "Summary pages now reopen exactly where you left them - after switching tabs, restarting the app, or rebooting the phone. The summary has its own text size slider, PowerPoint .pptx decks can be added like any other book, and very large books no longer freeze the screen."
 }
