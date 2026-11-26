@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "1.7",
-  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.7/Tomlume-1.7.apk",
-  "sha256": "539f9bcd5a6dca8ff9bae723317def033ac5405a32a358fcecf72084619e2768",
-  "notes": "Summary pages now reopen exactly where you left them - after switching tabs, restarting the app, or rebooting the phone. The summary has its own text size slider, PowerPoint .pptx decks can be added like any other book, and very large books no longer freeze the screen."
+  "versionCode": 9,
+  "versionName": "1.7.1",
+  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.7.1/Tomlume-1.7.1.apk",
+  "sha256": "067b152719e5e8638edb98cf66d4ca392e68e9e38e6860361d37146565053154",
+  "notes": "Tomlume 1.7.1 - the summary text-size slider now scales the chapter roadmap too, and the summary keeps its place after a reload or when returning from the background instead of jumping to the top."
 }
