@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "1.7.1",
-  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.7.1/Tomlume-1.7.1.apk",
-  "sha256": "067b152719e5e8638edb98cf66d4ca392e68e9e38e6860361d37146565053154",
-  "notes": "Tomlume 1.7.1 - the summary text-size slider now scales the chapter roadmap too, and the summary keeps its place after a reload or when returning from the background instead of jumping to the top."
+  "versionCode": 10,
+  "versionName": "1.7.2",
+  "apkUrl": "https://github.com/sudo-nic09/Tomlume-updates/releases/download/v1.7.2/Tomlume-1.7.2.apk",
+  "sha256": "a924d76bcd858178c6000d78d84065a62a5bcc7a2f177e84002ee76077b6affc",
+  "notes": "Tomlume 1.7.2 - summary font scaling now applies across all summary content, DOCX inline images are extracted/cached for the reading screen, rich-text tables scroll instead of squeezing on mobile, and pinch-to-zoom is enabled in the Android reader."
 }
